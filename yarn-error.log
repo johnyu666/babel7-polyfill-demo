@@ -1,0 +1,56 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn add @babel/transform-runtime
+
+PATH: 
+  /usr/local/opt/mysql-client/bin:/Library/Frameworks/Python.framework/Versions/3.7/bin:/Users/johnyu/dev/apache-maven-3.6.1/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/usr/local/opt/mysql-client/bin:/Library/Frameworks/Python.framework/Versions/3.7/bin:/Users/johnyu/dev/apache-maven-3.6.1/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/bin:/Users/johnyu/Library/Android/sdk/tools:/Users/johnyu/dev/apache-cxf-3.4.0/bin:/Users/johnyu/dev/gradle-6.7.1/bin:/Users/johnyu/Library/Android/sdk/tools/bin:/Users/johnyu/Library/Android/sdk/platform-tools:/Users/johnyu/Library/Android/sdk/emulator:/Users/johnyu/Library/Android/sdk/tools:/Users/johnyu/dev/apache-cxf-3.4.0/bin:/Users/johnyu/dev/gradle-6.7.1/bin:/Users/johnyu/Library/Android/sdk/tools/bin:/Users/johnyu/Library/Android/sdk/platform-tools:/Users/johnyu/Library/Android/sdk/emulator
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  15.3.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.npm.taobao.org/@babel%2ftransform-runtime: Not found
+      at Request.params.callback [as _callback] (/usr/local/lib/node_modules/yarn/lib/cli.js:66987:18)
+      at Request.self.callback (/usr/local/lib/node_modules/yarn/lib/cli.js:140748:22)
+      at Request.emit (node:events:376:20)
+      at Request.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:141720:10)
+      at Request.emit (node:events:376:20)
+      at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:141642:12)
+      at Object.onceWrapper (node:events:482:28)
+      at IncomingMessage.emit (node:events:388:22)
+      at endReadableNT (node:internal/streams/readable:1294:12)
+      at processTicksAndRejections (node:internal/process/task_queues:80:21)
+
+npm manifest: 
+  {
+    "name": "babel-test",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "@babel/cli": "^7.12.13",
+      "@babel/core": "^7.12.13",
+      "@babel/plugin-proposal-class-properties": "^7.12.13",
+      "@babel/plugin-transform-arrow-functions": "^7.12.13",
+      "@babel/plugin-transform-classes": "^7.12.13",
+      "@babel/plugin-transform-exponentiation-operator": "^7.12.13",
+      "@babel/preset-env": "^7.12.13"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
